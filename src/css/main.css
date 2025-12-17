@@ -88,3 +88,16 @@ font-family: "Montserrat Alternates", sans-serif;
         text-align: justify;
         color: #0c0644;
 }
+@media only screen and (min-width: 1439px) {
+   .disclaimer-container{
+    padding-top: 86px;
+    padding-bottom: 30px;
+   }
+   .disclaimer-title{
+    text-align: left;
+   }
+   .disclaimer-text{
+    font-size: 32px;
+        line-height: 1.25;
+   }
+}
