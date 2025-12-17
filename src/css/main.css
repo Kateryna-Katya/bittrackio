@@ -50,3 +50,19 @@
     margin-right: auto;
     margin-top: 48px;
 }
+@media only screen and (min-width: 1439px) {
+.hero-title{
+    margin-top: 170px;
+}
+.hero-container{
+    position: relative;
+}
+.hero-title-img{
+    display: block;
+    position: absolute;
+    width: 720px;
+    height: 293px;
+    right: 123px;
+    top: 88px;
+}
+}

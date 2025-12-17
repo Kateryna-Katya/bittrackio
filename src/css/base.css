@@ -18,3 +18,8 @@ h2{
     text-align: right;
     color: #0c0644;
 }
+@media only screen and (min-width: 1439px) {
+  body{
+    background-image: url("/img/back/desk.jpg");
+  }
+}
