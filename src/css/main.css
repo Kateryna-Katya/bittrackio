@@ -66,3 +66,25 @@
     top: 88px;
 }
 }
+/* disclaimer */
+.disclaimer-container{
+    padding-top: 118px;
+}
+.disclaimer-title{
+font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-size: 47px;
+    line-height: 0.42553;
+    text-transform: uppercase;
+    color: #ea54d1;
+    text-align: center;
+}
+.disclaimer-text{
+    margin-top: 33px;
+    font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 1.33333;
+        text-align: justify;
+        color: #0c0644;
+}
