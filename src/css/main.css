@@ -220,4 +220,17 @@ font-family: "Montserrat Alternates", sans-serif;
     top: 52px;
 right: -320px;
   }
+  .feature-text{
+   font-size: 32px; 
+  }
+  .demo-img.pulse {
+      animation: pulse-animation 2s infinite;
+      transition: transform 0.3s ease;
+      display: block;
+      margin-left: auto;
+      margin-right: 14px;
+  }
+  .feature-container{
+    padding-bottom: 445px;
+  }
 }
