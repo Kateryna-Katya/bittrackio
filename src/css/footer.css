@@ -1,21 +1,44 @@
-.footer {
-  padding: 20px 0;
+footer{
+  background-image: url("/img/footer/mob.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
 }
-.footer-desc {
-  text-align: center;
+.footer-navigation{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.08333;
+    color: #40f;
 }
-.footer-link {
-  position: relative;
+.footer-text{
+  margin-top: 16px;
+  font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    color: #0c0644;
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+@media only screen and (min-width: 1439px) {
+  .footer{
+    background-image: url("/img/footer/cloud.png"), url("/img/footer/desk.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, bottom left;
+    background-size: contain, contain;
+  }
+  .footer-navigation{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-text{
+    margin-top: 39px;
+  }
 }
