@@ -146,35 +146,36 @@ font-family: "Montserrat Alternates", sans-serif;
     transition: transform 0.3s ease;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
 }
 
 .demo-wrapper {
     position: relative;
     max-width: 1200px;
+    border: 1px solid #000;
+    height: 630px;
     margin: 0 auto;
 }
 
-.game-img {
-    width: 100%;
-    display: block;
-}
+.demo-img{
+    margin-top: 21px;
 
+}
 /* iframe поверх картинки */
 .iframe-wrapper {
     position: absolute;
-    top: 10%;
+    top: 0%;
     /* під екран у картинці */
-    left: 47%;
-    transform: translateX(-56%);
+    left: 39%;
+    transform: translateX(-58%);
     width: 68%;
     height: 54%;
     z-index: 5;
 }
 
 #gameIframe {
-    width: 122%;
-    height: 146%;
+    width: 148%;
+    height: 186%;
     border: none;
     display: none;
     background: #000;
@@ -182,13 +183,41 @@ font-family: "Montserrat Alternates", sans-serif;
 
 #closeIframeBtn {
     position: absolute;
-    top: 12px;
-    right: -50px;
+    top: 32px;
+    right: -90px;
     background: none;
     border: none;
     cursor: pointer;
     display: none;
     z-index: 10;
-    width: 40px;
-    height: 20px;
+    width: 60px;
+    height: 40px;
+}
+.feature-text{
+    margin-top: 47px;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.20833;
+        text-align: center;
+        color: #0c0644;
+}
+.feature-title{
+    margin-top: 95px;
+}
+.feature-text-two{
+    margin-top: 21px;
+    text-align: right;
+}
+.feature-container{
+    padding-bottom: 349px;
+}
+@media only screen and (min-width: 1439px) {
+  .demo-wrapper{
+    height: 570px;
+  }
+  #closeIframeBtn{
+    top: 52px;
+right: -320px;
+  }
 }
