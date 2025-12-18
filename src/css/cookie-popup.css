@@ -67,45 +67,32 @@ font-family: "Montserrat Alternates", sans-serif;
     background-color: inherit;
 }
 
-.mob-none {
-    display: none;
-}
 
 @media screen and (min-width: 1439px) {
     .cookie-popup {
-        padding: 20px 40px;
+        padding: 40px 244px;
         width: 1439px;
         height: auto;
     }
 
     .popup-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        gap: 44px;
-    }
-
-    .popup-img {
-        margin-left: 0;
-        margin-right: 0;
+        gap: 24px;
     }
 
     .cookie-class {
-        width: 600px;
+        width: 952px;
         text-align: left;
         margin-top: 0;
     }
 
-    .mob-none {
-        display: inline;
-    }
-
-
     .cookie-buttons {
         flex-direction: row;
-        gap: 20px;
-        width: 404px;
-        height: 54px;
+        gap: 80px;
+    width: 468px;
+        height: 40px;
         margin-top: 0;
     }
 }
